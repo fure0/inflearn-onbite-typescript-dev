@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // ES5 or ESNext etc...
+    "module": "ESNext", // CommonJS or ESNext etc...
+    "outDir": "dist", // 컴파일 결과를 어디에 저장할지
+    "strict": true, // 엄격한 체크
+    "moduleDetection": "force", // 스코프 구분을 위한 export{}를 파일별로 자동으로 추가해줌
+    "skipLibCheck": true, // 라이브러리 체크 건너뛰기
+  },
+  "ts-node": {
+    "esm": true,
+  },
+  "include": ["src"],
+}
